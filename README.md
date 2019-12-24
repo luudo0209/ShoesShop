@@ -1,8 +1,7 @@
 # ShoesShop
 Selling shoes
 
-Ch? d?: VinGroup m? m?t ng�nh kinh doanh m?i d� l� s?n xu?t gi�y th? thao. 
-H�y l?p tr�nh web site thuong m?i di?n t? d? chuy�n b�n gi�y th? thao. 
-Kh�ch h�ng c� th? thanh to�n b?ng v� VinID ho?c ti?n m?t, COD... 
-L?y template HTML, CSS ? d�y. T?p trung v�o l?p tr�nh nghi?p v? hi?n th? th�ng tin h�ng, mua b�n h�ng. 
-https://web.techmaster.vn/obo-stadium/
+VinGroup mở một ngành kinh doanh mới đó là sản xuất giày thể thao. 
+Hãy lập trình web site thương mại điện tử để chuyên bán giầy thể thao. 
+Khách hàng có thể thanh toán bằng ví VinID hoặc tiền mặt, COD... 
+Lấy template HTML, CSS ở đây cho nhanh, tập trung vào lập trình nghiệp vụ hiển thị thông tin hàng, mua bán hàng. https://web.techmaster.vn/obo-stadium/
