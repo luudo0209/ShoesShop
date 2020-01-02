@@ -1,26 +1,23 @@
-package com.luudd.entity;
+package com.luudd.model.dto;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table
-public class User extends BaseEntity {
+public class UserDTO {
 	
-	@Id  
-   	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column
 	private int userId;
-	@Column
 	private String userName;
-	@Column
 	private int userRole;
-	@Column
 	private String userPassword;
+	
+	public UserDTO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public UserDTO(int userId, String userName, int userRole, String userPassword) {
+		super();
+		this.userId = userId;
+		this.userName = userName;
+		this.userRole = userRole;
+		this.userPassword = userPassword;
+	}
 	public String getUserName() {
 		return userName;
 	}
@@ -42,6 +39,11 @@ public class User extends BaseEntity {
 	public int getUserId() {
 		return userId;
 	}
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
+	
+	
 	
 	
 }

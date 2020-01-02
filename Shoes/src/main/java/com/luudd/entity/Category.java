@@ -9,13 +9,23 @@ import javax.persistence.Table;
 
 @Entity
 @Table
-public class Role extends BaseEntity{
+public class Category extends BaseEntity {
 	
 	@Id  
    	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column
-	private int roleId;
-	
+	private int categoryId;
 	@Column
-	private int roleName;
+	private String categoryName;
+	
+	public String getCategoryName() {
+		return categoryName;
+	}
+	public void setCategoryName(String categoryName) {
+		this.categoryName = categoryName;
+	}
+	public int getCategoryId() {
+		return categoryId;
+	}
+	
 }

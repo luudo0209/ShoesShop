@@ -32,16 +32,6 @@ public class Product extends BaseEntity {
 	@Column
 	private String genderFor;
 	
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "category_id")
-	private Category category;
-	
-	public Category getCategory() {
-		return category;
-	}
-	public void setCategory(Category category) {
-		this.category = category;
-	}
 	public String getProductName() {
 		return productName;
 	}
